@@ -102,6 +102,19 @@ Output:</br>
 The program outputs the value of the element in Pascal’s triangle at the requested position.  
 </li>
 
+<li>
+<h3>SecondMax.cpp</h3>Everyone knows that first is the worst, second is the best. The following program accepts a
+series of real numbers and outputs the second largest number.</br></br>
+Input:</br>
+Input consists of a series of real numbers, one per line.The assumption is that at least two
+numbers will be provided. The end of the input is signalled by the number −1. When the program
+receives a −1, your program then outputs the correct answer and terminates. Note that −1
+is completely ignored and thus is not taken into consideration when performing
+the calculation.</br>
+Output:</br>
+Print the second largest number received
+</li>
+
 
 
 
