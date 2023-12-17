@@ -37,6 +37,14 @@ Output:</br>
 On their own line, the program outputs the percentage each number represents
 </li>
 
+<li>
+<h3>Hi-Lo.cpp:</h3> The following program receives a list of numbers and determines the second largest and second smallest element.</br></br>
+Input:</br>
+The first line of input is a single integer N ≥ 2. N real numbers follow, one per line.</br>
+Output:</br>
+The program outputs the second smallest and second largest value on their own lines.
+</li>
+
 
 
 
