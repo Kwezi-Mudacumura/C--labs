@@ -112,7 +112,31 @@ receives a −1, your program then outputs the correct answer and terminates. No
 is completely ignored and thus is not taken into consideration when performing
 the calculation.</br>
 Output:</br>
-Print the second largest number received
+The program prints the second largest number received
+</li>
+
+<li>
+<h3>Sociable.cpp</h3><p>The aliquot sum of a positive integer N is the sum of the integer’s divisors (excluding N itself).
+For example, the aliquot sum of 28 is 1 + 2 + 4 + 7 + 14. A perfect number is an integer whose
+aliquot sum is equal to itself: 28 is perfect, since its aliquot sum 1 + 2 + 4 + 7 + 14 = 28.
+Sociable numbers are generalisations of perfect numbers. These are numbers whose aliquot
+sums form a cyclic sequence that begins and ends with the same number! For example, 12496 is
+a sociable number because:<ul>
+<li>1. The aliquot sum of 12496 is 14288</li>
+<li>2. The aliquot sum of 14288 is 15472</li>
+<li>3. The aliquot sum of 15472 is 14536</li>
+<li>4. The aliquot sum of 14536 is 14264</li>
+<li>5. The aliquot sum of 14264 is 12496, which is our original number.</li>
+</ul>
+The length of the sequence is called the period. In this case, 12496 is a sociable number with
+period 5.
+</p>
+The following program determines whether a number is a sociable number.</br> Note:there are no known sociable numbers with period greater than 28. </br></br>
+Input:</br>
+The first line of input is a single integer N. N positive integers follow, each on their own line.</br>
+Output:</br>
+For each integer,The program outputs True if it is sociable, and False otherwise. Note that all perfect numbers
+are in fact sociable numbers with period 1. 
 </li>
 
 
