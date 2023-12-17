@@ -74,12 +74,32 @@ from its grade by a colon and single space.
 <li>
 <h3>GCD.cpp</h3>Euclid’s algorithm is an ancient method for calculating the greatest common divisor (GCD) of
 two numbers. To calculate the GCD of two positive numbers x and y, we use the formula:</br>
-gcd(x, y) = (x, if y = 0 ; gcd(y, x mod y), if y <> 0).
+gcd(x, y) = (x, if y = 0 ; gcd(y, x mod y), if y <> 0).</br>
 The following program accepts two integers and computes their GCD using recursion.</br></br>
 Input:</br>
 Input consists of two positive integers x and y separated by a single space.</br>
 Output:</br>
 The program outputs the GCD of x and y. 
+</li>
+
+<li>
+<h3>PascalTriangle.cpp</h3>Pascal’s triangle is a triangular array of the binomial coefficients. The first 5 rows of the triangle
+are given below:(It may be easier to visualise if we left-align all the values)</br></br>
+1</br>
+1 1</br>
+1 2 1</br>
+1 3 3 1</br>
+1 4 6 4 1</br></br>
+<p>This reveals a pattern: the values of all elements in column zero are always 1, as are all the
+elements along the diagonal. Otherwise, we can calculate the value of an element as the sum
+of the element directly above it, and the element directly above it and one to the left.</p>
+ The following program is a recursive function that accepts the row and column of an
+element, and outputs the value of the element in Pascal’s triangle at that location.</br></br>
+Input:</br>
+Input is a single line consisting of two integers, the row and column, separated by a space.The assumption is that the row and column are valid entries in Pascal’s triangle. Note that rows
+and columns are indexed starting at 0.</br>
+Output:</br>
+The program outputs the value of the element in Pascal’s triangle at the requested position.  
 </li>
 
 
