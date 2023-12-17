@@ -74,7 +74,7 @@ from its grade by a colon and single space.
 <li>
 <h3>GCD.cpp</h3>Euclid’s algorithm is an ancient method for calculating the greatest common divisor (GCD) of
 two numbers. To calculate the GCD of two positive numbers x and y, we use the formula:</br>
-gcd(x, y) = (x, if y = 0;gcd(y, x mod y)).</br>
+gcd(x, y) = (x, if y = 0 ; gcd(y, x mod y), if y <> 0).
 
 The following program accepts two integers and computes their GCD using recursion.</br></br>
 Input:</br>
