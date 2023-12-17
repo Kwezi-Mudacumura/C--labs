@@ -59,6 +59,18 @@ Display the resulting matrix in a grid, with the appropriate elements altered ac
 input received.
 </li>
 
+<li>
+<h3>Marks.cpp</h3>The following program receives a list of names and grades and outputs the names in alphabetical order, with their associated
+grade.</br></br>
+Input:</br>
+The first line of input is an integer N. N lines follow, each containing a name and a mark,
+separated by a space. The assumption is that the name is a single word, and that the mark is an
+integer.</br>
+Output:</br>
+The program outputs the names and associated grades in alphabetical order. Each name is separated
+from its grade by a colon and single space.
+</li>
+
 
 
 
