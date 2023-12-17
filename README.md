@@ -26,9 +26,9 @@ For each number, the program outputs true if it is a twin prime. Otherwise, the 
   
 <li>
 <h3>percent.cpp</h3> The following program receives a list of non-negative numbers,then works out what percentage each number makes up of the
-total list. Formally,the assumption is the program is given a list of numbers x1, x2, . . . xN.</br>For each element xj ,
+total list. Formally,the assumption is the program is given a list of numbers x1, x2, . . . xN.</br> </br>For each element xj ,
 calculate:</br>
-xj/∑(from i=1 to N)Xi
+xj/∑(from i=1 to N)xi
 </br>
 
 Input:</br>
