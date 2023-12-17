@@ -45,6 +45,20 @@ Output:</br>
 The program outputs the second smallest and second largest value on their own lines.
 </li>
 
+<li>
+<h3>DynamicMatrix.cpp</h3> The following program uses a 2D
+vector, representing a matrix initially populated with zeroes. Based on the user input,the program changes the value of some of these elements.</br></br>
+Input:</br>
+The first line of input consists of two integers: the number of rows and columns of the matrix.
+The next line contains a single integer N, which specifies the number of lines to follow. Each of
+the following N lines contains 3 integers in the format <row> <column> <value>. The program sets the element at this specified row and column to the given value. Note that the row
+and column are zero-indexed.
+</br>
+Output:</br>
+Display the resulting matrix in a grid, with the appropriate elements altered according to the
+input received.
+</li>
+
 
 
 
