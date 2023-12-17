@@ -9,7 +9,7 @@ Output:</br>
 For each string received, the program outputs the input after it is converted to upper case.
 </li>
 <li>
-<h3>prime2.cpp</h3></br> <p>A prime number is a number that has no positive divisors, aside from 1 and itself. A twin prime
+<h3>prime2.cpp</h3> <p>A prime number is a number that has no positive divisors, aside from 1 and itself. A twin prime
 is a prime number that is either 2 less or 2 more than another prime. The Twin Prime Conjecture,
 attributed by some to Euclid (circa 300 BC), proposes that there are an infinite number of twin
 primes. This is still an open problem in Number Theory.</p>
