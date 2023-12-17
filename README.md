@@ -128,6 +128,7 @@ a sociable number because:<ul>
 <li>4. The aliquot sum of 14536 is 14264</li>
 <li>5. The aliquot sum of 14264 is 12496, which is our original number.</li>
 </ul>
+</br>
 The length of the sequence is called the period. In this case, 12496 is a sociable number with
 period 5.
 </p>
